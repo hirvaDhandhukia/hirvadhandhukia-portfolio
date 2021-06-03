@@ -1,3 +1,4 @@
-This is my personal portfolio in making.
-I'm creating changes and i have to commit to them.
-I also need to push this file to GitHub.
+# student portfolio
+
+Hey! Welcome to my Portfolio. It's comming up tomorrow when I 
+learn HTML and CSS from YouTube.
