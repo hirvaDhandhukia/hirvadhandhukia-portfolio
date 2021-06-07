@@ -2,6 +2,8 @@
 
 :root {
     --primary-color: #F59E0B;
+    --dark-grey-color: #6B7280;
+    --darker-grey-color: #374151;
 }
 
 body {
@@ -72,6 +74,22 @@ hr {
     font-weight: bold;
 }
 
+/* header */
+.girl {
+    padding: 2rem;
+}
+.girl .girl-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.girl .girl-heading {
+    padding-top: 1rem;
+    color: var(--darker-grey-color);
+}
+.girl .girl-heading .heading-inverted {
+    color: var(--primary-color);
+}
 
 
 /* look into BEM naming convention of css */
