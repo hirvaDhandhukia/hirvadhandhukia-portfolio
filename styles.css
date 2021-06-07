@@ -104,7 +104,21 @@ hr {
     background-color: var(--off-white);
 }
 
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+.footer .link {
+    color: white;
+}
 
+.footer ul {
+    padding-inline-start: 0px;
+}
 
 
 /* look into BEM naming convention of css */
