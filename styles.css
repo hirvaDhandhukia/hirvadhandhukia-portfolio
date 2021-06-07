@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #F59E0B;
+    --off-white: #F3F4F6;
     --dark-grey-color: #6B7280;
     --darker-grey-color: #374151;
 }
@@ -84,12 +85,26 @@ hr {
     margin: auto;
 }
 .girl .girl-heading {
+    text-align: center;
     padding-top: 1rem;
     color: var(--darker-grey-color);
 }
 .girl .girl-heading .heading-inverted {
     color: var(--primary-color);
 }
+
+/* section */
+.section {
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow {
+    background-color: var(--off-white);
+}
+
+
 
 
 /* look into BEM naming convention of css */
