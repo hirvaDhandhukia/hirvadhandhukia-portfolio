@@ -1,4 +1,3 @@
 # student portfolio
 
-Hey! Welcome to my Portfolio. It's comming up tomorrow when I 
-learn HTML and CSS from YouTube.
+Hey! Welcome to my Portfolio. I'm currently working on it and i'm improving it regularly. 
