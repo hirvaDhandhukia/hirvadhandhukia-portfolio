@@ -6,55 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Hirva Dhandhukia</title>
     <link rel="stylesheet" href="styles.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
 
     <nav class="navigation container">
-        <div class="nav-brand">HIRVA</div>
+        <div class="nav-brand highlight"><a class="nav-link1 highlight" href="#section2">HIRVA</a></div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link link-active" href="/">Home</a>
+                <a class="link link-active highlight" href="/">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/projects.html">Projects</a>
+                <a class="link highlight" href="/projects.html">Projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/blogs.html">Blogs</a>
+                <a class="link highlight" href="">Blogs</a>
             </li>
         </ul>
     </nav>
 
     <header class="girl">
-        <img class="girl-img" src="images/girlPC.svg">
-        <h1 class="girl-heading">Hirva Dhandhukia the <span class="heading-inverted">Web Developer</span></h1>
+        <img class="girl-img" src="images/girlDev.svg">
+        <h1 class="girl-heading">Hey! I'm <span class="heading-inverted">Hirva Dhandhukia</span></h1>
+        <p class="div-center container-center">I am a Sophomore in Information Technology at Sal College of Engineering.</p>
     </header>
 
     <section class="section ow">
         <div class="container-center">
-            <h1>Technologies</h1>
-        <p>What i'm good at. I'm familiar with HTML5, CSS3, Git, Web Hosting, C++, and Java. // write more things, and detail about each language</p>
+            <h1>Skills</h1>
+        <p class="alignment">I'm comfortable with Computer Languages such as HTML5, CSS3, C, C++ and Java.  I'm acquainted with technologies like Git, GitHub, Adobe Photoshop and Illustrator.</p>
+        <!-- I have key interests in Web Development, Full Stack App Development, Computer Network, cloud computing, graphic designing, UI/UX -->
         </div>
     </section>
 
     <section class="section">
         <div class="container-center">
             <h1>Projects</h1>
-        <p class="padding-bot">I would like to showcase my work and thus, you can see my projects hosted online</p>
-        <a class="link link-primary" href="/projects.html">See Projects</a>
+        <p class="padding-bot alignment">I would like to showcase my work and thus, you can see my projects hosted online</p>
+        <a class="link link-primary link-highlight" href="/projects.html">See Projects</a>
         <!-- <a class="link link-secondary" href="/"><strong>See Projects</strong></a> -->
         </div>
     </section>
 
     <section class="section ow">
-        <div class="container-center">
+        <div id="section2" class="container-center alignment">
             <h1>Blogs</h1>
-        <p class="padding-bot">I am also working on some technical and non-technical blogs. I like to document my journey of learning. //Books, Tech movies, or i'm very active on photography, videography etc etc</p>
+        <p class="padding-bot">I am also working on some technical and non-technical blogs. I like to document my journey of learning. Book Notes, Tech movies. I'm also active on UI designing</p>
         <!-- <a class="link link-primary" href="/">Read Blogs</a> -->
         <a class="link link-secondary" href="/blogs.html"><strong>Read Blogs</strong></a>
         </div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer #section2">
         <div class="footer-header">Connect to me here</div>
         <ul class="social-list list-non-bullet">
             <li class="list-item-inline"><a class="link" href="https://github.com/hirvaDhandhukia">GitHub</a></li>
