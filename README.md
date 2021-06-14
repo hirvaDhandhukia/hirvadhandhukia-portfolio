@@ -1,3 +1,3 @@
 # student portfolio
 
-Hey! Welcome to my Portfolio. 
+This is my portfolio website!
